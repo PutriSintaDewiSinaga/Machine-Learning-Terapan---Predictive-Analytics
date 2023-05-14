@@ -126,8 +126,8 @@ Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait 
 
 <p align='center'>
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/age.png" height=200px alt="age">
-         <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png" height=200px alt="Hba1c_Level">
-            <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=200px alt="blood_glucose_level">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png" height=200px alt="Hba1c_Level">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=200px alt="blood_glucose_level">
 </p>
 
 Pada feature age, Hba1c_Level dan blood_glucose_level, tidak ada perbedaan yang secara signifikan. 
