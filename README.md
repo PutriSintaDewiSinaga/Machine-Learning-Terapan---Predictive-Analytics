@@ -171,7 +171,8 @@ Teknik yang digunakan dalam Data Preparation adalah sebagai berikut:
   Proporsi dari label/class pada dataset yang tidak seimbang akan menjadi permasalahan yang cukup besar, khususnya pada algoritma klasifikasi. Hal ini dikarenakan, algoritma machine learning yang digunakan akan cenderung mengklasifikasikan data ke dalam class yang memiliki data yang lebih banyak atau dominan (majority class) daripada kelas yang lebih sedikit (minority class). Hal ini akan sangat berbahaya apabila terjadi, khususnya dalam bidang kesehatan. dimana kesalahan hasil prediksi bisa saja berakibat fatal bagi pasien. Pada dataset yang dipakai dalam proyek ini, terdapat imbalanced class. dimana Synthetic Minority Over-sampling Technique (SMOTE) akan dipakai untuk handling pada kasus ini. SMOTE memakai pendekatan oversampling, hal ini dilakukan dengan mensintesis sampel baru dari minority class untuk menyeimbangkan dataset dengan cara membuat instance baru dari *minority* *class*. Dengan metode ini dapat membuat data-set menjadi seimbang.
   
   <p align='center'>
-      <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/handling-imbalanced.png?raw=true" width=600px alt="smote">
+       <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCB.png" height=300px alt="knn">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCA.png" height=300px alt="knn">
   </p>
 
 ## Modeling
@@ -182,8 +183,8 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
   Algoritma KNN atau K-Nearest Neighbor merupakan salah satu algoritma paling sederhana dan populer digunakan dalam klasifikasi pada machine learning. KNN bekerja dengan mengambil sejumlah K-data untuk dijadikan acuan dalam menentukan class dari data yang baru. Setiap data akan dibandingkan berdasarkan jarak (similarity) antara satu data dengan data lainnya dengan memilih K tetangga terdekat. Proses modelling menggunakan KNN dalam proyek ini, akan memakai modul yang telah tersedia pada library scikit-learn yakni [KNeighborsClassifier()](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) dengan parameters `n_neighbors = 8` yang artinya akan ada 8 data acuan yang akan digunakan sebagai K tetangga terdekat dalam proses klasifikasi. kemudian, metrics yang digunakan dalam menentukan similarity adalah `minkowski distance`. cara kerja minkowski hampir mirip dengan euclidian distance, hanya saja yang membedakan adalah penambahan parameter p atau pangkatnya. minkowski menghitung jarak antar 2 vektor data. apabila nilai p=1 maka itu adalah manhattan, sedangan p=2 itu adalah euclidian distance. berikut formula dari minkowski distance. `d(x-y)=(∑i=1n|xi−yi|p)1/p.`
 
   <p align='center'>
-      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCB.png" height=300px alt="knn">
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCA.png" height=300px alt="knn">
+      <img src="" height=300px alt="knn">
+    
   </p>
 
   Proses building model dalam KNN akan terus dilakukan iterasi secara berulang dengan mencari nilai K tetangga terdekat sampai mendapatkan hasil yang optimal. setelah model didapatkan, tahap selanjutnya akan dilakukan proses testing menggunakan data test yang telah disediakan.
