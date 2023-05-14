@@ -275,12 +275,12 @@ Keterangan:
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Screenshot%202023-05-14%20224158.png" height=auto alt="recall">
 </p>
 
-Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case menggunakan ketiga algoritma tersebut adalah **Random Forest**. Random Forest menghasilkan nilai recall tertinggi dari ketiga algoritma yang telah diterapkan yakni 1.0.
+Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case menggunakan ketiga algoritma tersebut adalah **Random Forest**. Random Forest menghasilkan nilai recall tertinggi dari ketiga algoritma yang telah diterapkan yakni 0.96.
 
 
 
 ## Daftar Pustaka
 
-- Kemkes.go.id. (2021). “Remaja Sehat Komponen Utama Pembangunan SDM Indonesia”. Diakses pada 15 September 2022, pukul 08.00 WIB, melalui website https://www.kemkes.go.id/article/view/21012600002/remaja-sehat-komponen-utama-pembangunan-sdm-indonesia.html
-- Peksi, Nandha, Bambang Yuwono, & Mangaras Yanu Florestiyanto. "Classification of Anemia with Digital Images of Nails and Palms using the Naive Bayes Method." *Telematika : Jurnal Informatika dan Teknologi Informasi* [Online], 18.1 (2021): 118-130. Web. 15 Sep. 2022
+- www.halodoc.com (2023). “Diabetes”. Diakses pada 14 Mei 2023, pukul 22.00 WIB, melalui website https://www.halodoc.com/kesehatan/diabetes
+- Peksi, Nandha, Bambang Yuwono, & Mangaras Yanu Florestiyanto. "Classification of Anemia with Digital Images of Nails and Palms using the Naive Bayes Method." *Telematika : Jurnal Informatika dan Teknologi Informasi* [Online], 18.1 (2021): 118-130. Web. 14 Mei 2023
 - Ramageri, B. M. (2010). Data Mining Techniques and Applications. Indian Journal of Computer Science and Engineering. Vol. 1 No. 4: 301-302
