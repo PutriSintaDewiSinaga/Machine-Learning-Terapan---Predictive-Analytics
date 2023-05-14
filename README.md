@@ -119,15 +119,15 @@ Berdasarkan visualiasi pie-chart diatas, dapat disimpulkan bahwa pengidap Diabet
 - **Bivariate Analysis**
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/BMI.png" height=auto alt="BMI">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/BMI.png?raw=true" height=auto alt="BMI">
 </p>
 
-Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait korelasi antara gender dan Body Mass Index. Dari gambar di atas, didapatkan adalah orang yang terkena Diabetes, memiliki kecenderungan Body Mass Index lebih tinggi. Jadi, tingginya Body Mass Index dapat memberikan indikasi kalau terkena penyakit anemia.
+Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait korelasi antara gender dan Body Mass Index. Dari gambar di atas, didapatkan adalah orang yang terkena Diabetes, memiliki kecenderungan Body Mass Index lebih tinggi. Jadi, tingginya Body Mass Index dapat memberikan indikasi kalau terkena penyakit Diabetes.
 
 <p align='center'>
-      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/age.png" height=200px alt="age.Hba1c_Level.blood_glucose_level">
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png" height=200px alt="age.Hba1c_Level.blood_glucose_level">
-   <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=200px alt="age.Hba1c_Level.blood_glucose_level">
+      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/age.png?raw=true" height=200px alt="age.Hba1c_Level.blood_glucose_level">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png?raw=true" height=200px alt="age.Hba1c_Level.blood_glucose_level">
+   <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png?raw=true" height=200px alt="age.Hba1c_Level.blood_glucose_level">
 </p>
 
 Pada feature age, Hba1c_Level dan blood_glucose_level, tidak ada perbedaan yang secara signifikan. 
@@ -135,18 +135,19 @@ Pada feature age, Hba1c_Level dan blood_glucose_level, tidak ada perbedaan yang 
 **Multivariate Analysis**
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/all.png" height=auto alt="pairplot">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/all.png?raw=true" height=auto alt="pairplot">
 </p>
 
+Pada multivariate analysis melalui pairplot, dapat terlihat dengan jelas bahwa penyakit Diabetes dipengaruhi oleh age, Body Mass Index dan Hba1c_Level.
 
 **Outlier & Distribution Analysis**
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUB.png" height=auto alt="boxplots-outlier">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUB.png?raw=true" height=auto alt="boxplots-outlier">
 </p>
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUH.png" height=auto alt="hist">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUH.png?raw=true" height=auto alt="hist">
 </p>
 
 Visualiasi boxplot dapat membantu untuk mengidentifikasi ada tidaknya outlier data pada masing-masing feature.
@@ -160,7 +161,7 @@ Teknik yang digunakan dalam Data Preparation adalah sebagai berikut:
 
 - Data Splitting
 
-  Proses ini merupakan tahap untuk membagi dataset menjadi data train dan test. Pembagian ini bertujuan agar data yang digunakan dapat digunakan untuk mengembangkan model dan mengevaluasi performance dari model yang sudah dikembangkan. Pada proyek ini, dataset akan di split dengan proporsi 80% atau 427 data untuk data train dan 20% atau 107 data untuk data testing. Sedangkan, proses splitting akan menggunakan function train_test_split() yang tersedia pada library sklearn.
+  Proses ini merupakan tahap untuk membagi dataset menjadi data train dan test. Pembagian ini bertujuan agar data yang digunakan dapat digunakan untuk mengembangkan model dan mengevaluasi performance dari model yang sudah dikembangkan. Pada proyek ini, dataset akan di split dengan proporsi 80% atau 75306 data untuk data train dan 20% atau 18827 data untuk data testing. Sedangkan, proses splitting akan menggunakan function train_test_split() yang tersedia pada library sklearn.
 
 - Feature Scaling (Standarisasi)
 
@@ -171,8 +172,8 @@ Teknik yang digunakan dalam Data Preparation adalah sebagai berikut:
   Proporsi dari label/class pada dataset yang tidak seimbang akan menjadi permasalahan yang cukup besar, khususnya pada algoritma klasifikasi. Hal ini dikarenakan, algoritma machine learning yang digunakan akan cenderung mengklasifikasikan data ke dalam class yang memiliki data yang lebih banyak atau dominan (majority class) daripada kelas yang lebih sedikit (minority class). Hal ini akan sangat berbahaya apabila terjadi, khususnya dalam bidang kesehatan. dimana kesalahan hasil prediksi bisa saja berakibat fatal bagi pasien. Pada dataset yang dipakai dalam proyek ini, terdapat imbalanced class. dimana Synthetic Minority Over-sampling Technique (SMOTE) akan dipakai untuk handling pada kasus ini. SMOTE memakai pendekatan oversampling, hal ini dilakukan dengan mensintesis sampel baru dari minority class untuk menyeimbangkan dataset dengan cara membuat instance baru dari *minority* *class*. Dengan metode ini dapat membuat data-set menjadi seimbang.
   
   <p align='center'>
-       <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCB.png" height=300px alt="knn">
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCA.png" height=300px alt="knn">
+       <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCB.png?raw=true" height=300px alt="knn">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCA.png?raw=true" height=300px alt="knn">
   </p>
 
 ## Modeling
@@ -183,7 +184,7 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
   Algoritma KNN atau K-Nearest Neighbor merupakan salah satu algoritma paling sederhana dan populer digunakan dalam klasifikasi pada machine learning. KNN bekerja dengan mengambil sejumlah K-data untuk dijadikan acuan dalam menentukan class dari data yang baru. Setiap data akan dibandingkan berdasarkan jarak (similarity) antara satu data dengan data lainnya dengan memilih K tetangga terdekat. Proses modelling menggunakan KNN dalam proyek ini, akan memakai modul yang telah tersedia pada library scikit-learn yakni [KNeighborsClassifier()](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) dengan parameters `n_neighbors = 8` yang artinya akan ada 8 data acuan yang akan digunakan sebagai K tetangga terdekat dalam proses klasifikasi. kemudian, metrics yang digunakan dalam menentukan similarity adalah `minkowski distance`. cara kerja minkowski hampir mirip dengan euclidian distance, hanya saja yang membedakan adalah penambahan parameter p atau pangkatnya. minkowski menghitung jarak antar 2 vektor data. apabila nilai p=1 maka itu adalah manhattan, sedangan p=2 itu adalah euclidian distance. berikut formula dari minkowski distance. `d(x-y)=(∑i=1n|xi−yi|p)1/p.`
 
   <p align='center'>
-      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/KNN.png" height=300px alt="knn">
+      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/KNN.png?raw=true" height=300px alt="knn">
     
   </p>
 
@@ -204,7 +205,7 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
   Algoritma SVM bekerja untuk menemukan hyperplane atau pemisah yang dapat memaksimalkan jarak (margin) antar kelas dalam ruang n-dimensi untuk mengklasifikasikan titik-titik data. Memaksimalkan jarak margin akan memberikan kejelasan terkait klasifikasi kelas sehingga titik data yang baru dilihat dapat diklasifikasikan dengan lebih baik.
 
   <p align='center'>
-      <img src ="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/SVM.png" alt="svm">
+      <img src ="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/SVM.png?raw=true" alt="svm">
   </p>
 
 
@@ -225,7 +226,7 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
   Random Forest merupakan salah satu algoritma machine learning terbaik yang digunakan dalam klasifikasi dalam jumlah data yang besar. Random Forest memakai pendekatan kombinasi dari beberapa pohon keputusan (decision tree) yang datanya akan dipilih secara random. Dalam random forest, penentuan klasifikasi dilakukan berdasarkan hasil voting dari tree yang terbentuk. sehingga, pemakaian jumlah tree yang lebih banyak dapat menghasilkan tingkat akurasi yang lebih optimal. Tree yang dihasilkan oleh random forest dilatih menggunakan metode bagging. Bagging akan bekerja dengan memilih fitur secara random dengan menerapkan sampling with replacement. Kemudian, dari hasil ini akan diperoleh model tree klasifikasi. proses ini akan terus berulang hingga mendapatkan jumlah tree (k) yang diinginkan. kemudian dari jumlah tree yang ada, masing-masing tree akan memberikan hasil prediksi. langkah terakhir, proses *majority voting* akan dilakukan untuk menentukan prediksi akhir. Pada proyek machine learning ini, implementasi random forest akan dilakukan dengan memakai modul [RandomForestClassifier()](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) yang telah tersedia pada library scikit-learn. parameter `n_estimator` dipakai untuk menentukan jumlah tree. disini saya memakai 100 tree. Kemudian setelah menentukan parameter model, proses selanjutnya adalah building model dan prediksi yang dilakukan menggunakan data testing. hasil dari testing akan dievaluasi menggunakan metriks accuracy.
 
   <p align='center'>
-      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/random-forest.png" height=300px alt="random-forest">
+      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/random-forest.png?raw=true" height=300px alt="random-forest">
   </p>
   
   - Kelebihan :
@@ -244,13 +245,12 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
 
 #### **Pemilihan Model**: 
 
-Dari ketiga model yang telah dilatih, Random Forest merupakan model terbaik yang dihasilkan. Hal ini didasarkan pada confusion matrix yang didapatkan dari hasil testing secara sempurna yakni 100% pada confusion-matrix. Secara umum, 2 model lainnya juga memberikan hasil yang cukup bagus. Sehingga proses improvement dengan hyperparameter tuning tidak perlu untuk dilakukan, karena model yang dikembangkan sudah memenuhi ekspetasi dari solution statement yang sudah di tentukan di awal.
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png" height=auto alt="conf-matrix">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
 </p>
 
-
+Dari ketiga model yang telah dilatih, Random Forest merupakan model terbaik yang dihasilkan. Hal ini didasarkan pada confusion matrix yang didapatkan dari hasil testing yakni 95,93% pada confusion-matrix. Secara umum, 2 model lainnya juga memberikan hasil yang cukup bagus. Sehingga proses improvement dengan hyperparameter tuning tidak perlu untuk dilakukan, karena model yang dikembangkan sudah memenuhi ekspetasi dari solution statement yang sudah di tentukan di awal.
 
 ## Evaluation
 Berdasarkan pada kasus yang akan diselesaikan, yakni klasifikasi. maka ada empat metrik evaluasi yang populer digunakan yaitu **akurasi, precision, recall, dan F1 score**.
@@ -272,7 +272,7 @@ Keterangan:
 - *False Negative* (FN): model memprediksi nilai negative tetapi jawaban yang benar adalah positive.
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Screenshot%202023-05-14%20224158.png" height=auto alt="recall">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Screenshot%202023-05-14%20224158.png?raw=true" height=auto alt="recall">
 </p>
 
 Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case menggunakan ketiga algoritma tersebut adalah **Random Forest**. Random Forest menghasilkan nilai recall tertinggi dari ketiga algoritma yang telah diterapkan yakni 0.96.
