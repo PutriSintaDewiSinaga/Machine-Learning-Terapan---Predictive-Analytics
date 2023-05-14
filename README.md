@@ -135,19 +135,18 @@ Pada feature age, Hba1c_Level dan blood_glucose_level, tidak ada perbedaan yang 
 **Multivariate Analysis**
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/all.png" height=350px alt="pairplot">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/all.png" height=auto alt="pairplot">
 </p>
 
-Pada multivariate analysis melalui pairplot, dapat terlihat jelas kalau tidak ada keterkaitan yang jelas dengan variabel result selain dengan hemoglobin. 
 
 **Outlier & Distribution Analysis**
 
 <p align='center'>
-    <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/boxplot-outlier.png?raw=true" height=auto alt="boxplots-outlier">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUB.png" height=auto alt="boxplots-outlier">
 </p>
 
 <p align='center'>
-    <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/histplot.png?raw=true" height=auto alt="hist">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUH.png" height=auto alt="hist">
 </p>
 
 Visualiasi boxplot dapat membantu untuk mengidentifikasi ada tidaknya outlier data pada masing-masing feature. dapat dilihat kalau pada data yang dipakai tidak memiliki outlier. kemudian, pada histogram distribusi normal dapat terlihat pada feature MCH, MCHC, dan MCV. sedangkan, feature Hemoglobin memiliki kecenderungan sedikit miring ke kiri (left-skewed).
