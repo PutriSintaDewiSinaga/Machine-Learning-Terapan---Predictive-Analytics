@@ -130,12 +130,12 @@ Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait 
             <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=200px alt="blood_glucose_level">
 </p>
 
-Pada feature MCV, MCH dan MCHC, tidak ada insight baru yang ditemukan. karena, tidak ada pola atau perbedaan yang secara signifikan dapat terlihat. 
+Pada feature age, Hba1c_Level dan blood_glucose_level, tidak ada perbedaan yang secara signifikan. 
 
 **Multivariate Analysis**
 
 <p align='center'>
-    <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/pairplot.png?raw=true" height=350px alt="pairplot">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/all.png" height=350px alt="pairplot">
 </p>
 
 Pada multivariate analysis melalui pairplot, dapat terlihat jelas kalau tidak ada keterkaitan yang jelas dengan variabel result selain dengan hemoglobin. 
