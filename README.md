@@ -149,7 +149,7 @@ Pada feature age, Hba1c_Level dan blood_glucose_level, tidak ada perbedaan yang 
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/AUH.png" height=auto alt="hist">
 </p>
 
-Visualiasi boxplot dapat membantu untuk mengidentifikasi ada tidaknya outlier data pada masing-masing feature. dapat dilihat kalau pada data yang dipakai tidak memiliki outlier. kemudian, pada histogram distribusi normal dapat terlihat pada feature MCH, MCHC, dan MCV. sedangkan, feature Hemoglobin memiliki kecenderungan sedikit miring ke kiri (left-skewed).
+Visualiasi boxplot dapat membantu untuk mengidentifikasi ada tidaknya outlier data pada masing-masing feature.
 
 ## Data Preparation
 Teknik yang digunakan dalam Data Preparation adalah sebagai berikut:
@@ -182,7 +182,8 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
   Algoritma KNN atau K-Nearest Neighbor merupakan salah satu algoritma paling sederhana dan populer digunakan dalam klasifikasi pada machine learning. KNN bekerja dengan mengambil sejumlah K-data untuk dijadikan acuan dalam menentukan class dari data yang baru. Setiap data akan dibandingkan berdasarkan jarak (similarity) antara satu data dengan data lainnya dengan memilih K tetangga terdekat. Proses modelling menggunakan KNN dalam proyek ini, akan memakai modul yang telah tersedia pada library scikit-learn yakni [KNeighborsClassifier()](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) dengan parameters `n_neighbors = 8` yang artinya akan ada 8 data acuan yang akan digunakan sebagai K tetangga terdekat dalam proses klasifikasi. kemudian, metrics yang digunakan dalam menentukan similarity adalah `minkowski distance`. cara kerja minkowski hampir mirip dengan euclidian distance, hanya saja yang membedakan adalah penambahan parameter p atau pangkatnya. minkowski menghitung jarak antar 2 vektor data. apabila nilai p=1 maka itu adalah manhattan, sedangan p=2 itu adalah euclidian distance. berikut formula dari minkowski distance. `d(x-y)=(∑i=1n|xi−yi|p)1/p.`
 
   <p align='center'>
-      <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/knn.png?raw=true" height=300px alt="knn">
+      <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCB.png" height=300px alt="knn">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/PCA.png" height=300px alt="knn">
   </p>
 
   Proses building model dalam KNN akan terus dilakukan iterasi secara berulang dengan mencari nilai K tetangga terdekat sampai mendapatkan hasil yang optimal. setelah model didapatkan, tahap selanjutnya akan dilakukan proses testing menggunakan data test yang telah disediakan.
