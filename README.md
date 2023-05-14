@@ -119,13 +119,13 @@ Berdasarkan visualiasi pie-chart diatas, dapat disimpulkan bahwa pengidap Diabet
 - **Bivariate Analysis**
 
 <p align='center'>
-    <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/hb.corr.png?raw=true" height=350px alt="hb-corr">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/BMI.png" height=350px alt="hb-corr">
 </p>
 
-Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait korelasi antara feature gender dan hemoglobin. dari sini, insight yang didapatkan adalah orang yang terkena anemia, memiliki kecenderungan pada kadar hemoglobin yang rendah. Jadi, rendahnya kadar hemoglobin dapat memberikan indikasi kalau terkena penyakit anemia.
+Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait korelasi antara gender dan Body Mass Index. Dari gambar di atas, didapatkan adalah orang yang terkena Diabetes, memiliki kecenderungan Body Mass Index lebih tinggi. Jadi, tingginya Body Mass Index dapat memberikan indikasi kalau terkena penyakit anemia.
 
 <p align='center'>
-    <img src="https://github.com/nurmuhimawann/MLT_Dicoding/blob/main/images/mch.mcv.mchc.png?raw=true" height=auto alt="mch.mcv.mchc">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/age.png" "https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png" "https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=350px alt="mch.mcv.mchc">
 </p>
 
 Pada feature MCV, MCH dan MCHC, tidak ada insight baru yang ditemukan. karena, tidak ada pola atau perbedaan yang secara signifikan dapat terlihat. 
