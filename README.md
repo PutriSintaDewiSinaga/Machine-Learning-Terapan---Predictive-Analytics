@@ -32,7 +32,7 @@
 </div>
 
 <p align='center'>
-    <img src ="https://github.com/PutriSintaDewiSinaga/Putsisds/blob/main/Diabetes%201.jpg" alt="Diabetes">
+    <img src ="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Diabetes%201.jpg" alt="Diabetes">
 </p>
 
  
@@ -93,7 +93,7 @@ Berdasarkan tujuan yang telah dipaparkan diatas, maka proyek penelitian ini memi
 Dataset yang dipakai dalam proyek machine learning ini merupakan dataset anemia dengan 1421 records data. Dataset ini bersifat open-source yang dipubilkasikan oleh Biswa Ranjan Rao melalui platform [Kaggle: Diabetes prediction dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). Topik dari datasetnya adalah kesehatan yang berformat csv (comma-separated values) dengan ukuran 3.81 MB.
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putsisds/blob/main/Dataset.png" alt="datasets">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Dataset.png" alt="datasets">
 </p>
 
 ### Variabel-variabel pada Anemia dataset:
@@ -111,7 +111,7 @@ Dataset yang dipakai dalam proyek machine learning ini merupakan dataset anemia 
 - **Univariate Analysis**
 
 <p align='center'>
-    <img src ="https://github.com/PutriSintaDewiSinaga/Putsisds/blob/main/Univariate%20Analysis.png" height=350px alt="pie-chart">
+    <img src ="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Univariate%20Analysis.png" height=350px alt="pie-chart">
 </p>
 
 Berdasarkan visualiasi pie-chart diatas, dapat disimpulkan bahwa pengidap Diabetes lebih sedikit daripada orang yang tidak mengidap anemia yaitu sebesar 9.0%. Namun, perlu diketahui bahwa angka ini cukuplah besar mengingat hal ini berkaitan langsung dengan kondisi kesehatan.
