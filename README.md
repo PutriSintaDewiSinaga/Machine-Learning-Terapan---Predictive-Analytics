@@ -125,9 +125,9 @@ Berdasarkan visualiasi pie-chart diatas, dapat disimpulkan bahwa pengidap Diabet
 Dengan menggunakan boxplot, distribusi data dapat terlihat dengan jelas terkait korelasi antara gender dan Body Mass Index. Dari gambar di atas, didapatkan adalah orang yang terkena Diabetes, memiliki kecenderungan Body Mass Index lebih tinggi. Jadi, tingginya Body Mass Index dapat memberikan indikasi kalau terkena penyakit anemia.
 
 <p align='center'>
-    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/age.png" 
-         img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png" 
-         img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=350px alt="age.Hba1c_Level.blood_glucose_level">
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/age.png" height=350px alt="age">
+         <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Hba1c_Level.png" height=350px alt="Hba1c_Level">
+            <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/blood_glucose_level.png" height=350px alt="blood_glucose_level">
 </p>
 
 Pada feature MCV, MCH dan MCHC, tidak ada insight baru yang ditemukan. karena, tidak ada pola atau perbedaan yang secara signifikan dapat terlihat. 
