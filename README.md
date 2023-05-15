@@ -43,25 +43,25 @@ Domain yang akan dibahas pada proyek pertama machine learning (*"predictive anal
 
 ### Latar Belakang
 
-Diabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kamu waspadai. Adapun tanda utama dari penyakit ini adalah meningkatnya kadar gula darah (glukosa) melebihi nilai normal. Ada dua jenis utama diabetes, yaitu diabetes tipe 1 dan tipe 2. Jika dijabarkan, berikut adalah penjelasan mengenai keduanya, yaitu: 
+Diabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kamu waspadai. Adapun tanda utama dari penyakit ini adalah meningkatnya kadar gula darah (glukosa) melebihi nilai normal[1]. Ada dua jenis utama diabetes, yaitu diabetes tipe 1 dan tipe 2. Jika dijabarkan, berikut adalah penjelasan mengenai keduanya, yaitu: 
 
 - Diabetes tipe 1. 
   
   jenis ini adalah penyakit autoimun, artinya sistem imun tubuh akan menyerang dirinya sendiri. Pada kondisi ini,  kadar insulin yang rendah bahkan tidak ada sama sekali akibat kerusakan sel beta pankreas . 
 - Diabetes tipe 2. 
   
-  Pada jenis diabetes ini, kelenjar pankreas yang tidak dapat mencukupi kebutuhan insulin pada tubuh sehingga insulin tidak berfungsi dengan optimal. 
+  Pada jenis diabetes ini, kelenjar pankreas yang tidak dapat mencukupi kebutuhan insulin pada tubuh sehingga insulin tidak berfungsi dengan optimal[2]. 
 
-menurut Organisasi Kesehatan Dunia (WHO), Jumlah penderita Diabetes terus meningkat dan tercatat saat ini mencapai 422 juta orang di dunia - empat kali lebih banyak dari pada 30 tahun lalu. Menurut British National Health Service, badan kesehatan Inggris, gejala diabetes tipe 1 cenderung muncul saat anak-anak atau remaja, serta lebih parah. Orang yang lebih berisiko terkena diabetes tipe 2 adalah kelompok umur di atas 40 tahun (atau di atas 25 tahun di antara orang Asia selatan). Ikatan Dokter Anak Indonesia (IDAI) menyebutkan, kasus diabetes anak pada 2023 meningkat 70 kali lipat sejak 2010. Data IDAI menunjukan, pasien diabetes anak umumnya berusia 10 sampai 14 tahun dengan jumlah sekitar 46 persen dari total angka yang dilaporkan. Namun, banyak orang tidak menyadari hal ini. Dari permasalahan tersebut, dapat dilihat bahwa perlu adanya sistem predictive untuk mendeteksi penyakit Diabetes ini. 
+menurut Organisasi Kesehatan Dunia (WHO), Jumlah penderita Diabetes terus meningkat dan tercatat saat ini mencapai 422 juta orang di dunia - empat kali lebih banyak dari pada 30 tahun lalu. Menurut British National Health Service, badan kesehatan Inggris, gejala diabetes tipe 1 cenderung muncul saat anak-anak atau remaja, serta lebih parah. Orang yang lebih berisiko terkena diabetes tipe 2 adalah kelompok umur di atas 40 tahun (atau di atas 25 tahun di antara orang Asia selatan). Ikatan Dokter Anak Indonesia (IDAI) menyebutkan, kasus diabetes anak pada 2023 meningkat 70 kali lipat sejak 2010. Data IDAI menunjukan, pasien diabetes anak umumnya berusia 10 sampai 14 tahun dengan jumlah sekitar 46 persen dari total angka yang dilaporkan. Namun, banyak orang tidak menyadari hal ini. Dari permasalahan tersebut, dapat dilihat bahwa perlu adanya sistem predictive untuk mendeteksi penyakit Diabetes ini[3]. 
 
-Ada banyak sistem predictive yang berkembang, salah satunya dengan pendekatan klasifikasi. Klasifikasi merupakan proses pencarian sekumpulan model atau fungsi yang menggambarkan dan membedakan kelas data. Tujuan dari klasifikasi adalah untuk memprediksi kelas dari suatu objek yang belum diketahui kelasnya. Klasifikasi sendiri memiliki dua proses yaitu membangun model klasifikasi dari sekumpulan kelas data yang sudah didefinisikan sebelumnya (training data) dan menggunakan model tersebut untuk klasifikasi data test serta mengukur akurasi dari model (testing data). Dalam prosesnya, klasifikasi memiliki empat komponen, yaitu kelas merupakan variabel terikat yang merepresentasikan label yang terdapat pada objek. kedua, predictor adalah variabel bebas yang direpresentasikan oleh atribut. ketiga, data training adalah set data yang digunakan untuk menentukan kelas yang cocok berdasarkan predictor. terakhir, data test adalah set data baru yang akan diklasifikasikan oleh model yang telah dibuat sebelumnya. Pada proyek machine learning ini, klasifikasi akan digunakan untuk membuat model machine learning.
+Ada banyak sistem predictive yang berkembang, salah satunya dengan pendekatan klasifikasi. Klasifikasi merupakan proses pencarian sekumpulan model atau fungsi yang menggambarkan dan membedakan kelas data. Tujuan dari klasifikasi adalah untuk memprediksi kelas dari suatu objek yang belum diketahui kelasnya. Klasifikasi sendiri memiliki dua proses yaitu membangun model klasifikasi dari sekumpulan kelas data yang sudah didefinisikan sebelumnya (training data) dan menggunakan model tersebut untuk klasifikasi data test serta mengukur akurasi dari model (testing data). Dalam prosesnya, klasifikasi memiliki empat komponen, yaitu kelas merupakan variabel terikat yang merepresentasikan label yang terdapat pada objek. kedua, predictor adalah variabel bebas yang direpresentasikan oleh atribut. ketiga, data training adalah set data yang digunakan untuk menentukan kelas yang cocok berdasarkan predictor. terakhir, data test adalah set data baru yang akan diklasifikasikan oleh model yang telah dibuat sebelumnya. Pada proyek machine learning ini, klasifikasi akan digunakan untuk membuat model machine learning[4].
 
 Referensi:
 
-- [Diabetes](https://www.halodoc.com/kesehatan/diabetes) 
-- [Diabetes :Penderita di Indonesia bisa mencapai 30 juta orang pada tahun 2030](https://p2ptm.kemkes.go.id/tag/diabetes-penderita-di-indonesia-bisa-mencapai-30-juta-orang-pada-tahun-2030#:~:text=Jumlah%20penderita%20terus%20meningkat%20dan,Organisasi%20Kesehatan%20Dunia%20(WHO).) 
-- [Kasus Diabetes Anak Meningkat 70 Kali Lipat pada 2023](https://ameera.republika.co.id/berita/rrbbrf425/kasus-diabetes-anak-meningkat-70-kali-lipat-pada-2023)
-- [Data Mining Techniques: Types of Data, Methods, Applications](https://www.upgrad.com/blog/data-mining-techniques/) 
+[1] [Diabetes](https://www.halodoc.com/kesehatan/diabetes) 
+[2] [Diabetes :Penderita di Indonesia bisa mencapai 30 juta orang pada tahun 2030](https://p2ptm.kemkes.go.id/tag/diabetes-penderita-di-indonesia-bisa-mencapai-30-juta-orang-pada-tahun-2030#:~:text=Jumlah%20penderita%20terus%20meningkat%20dan,Organisasi%20Kesehatan%20Dunia%20(WHO).) 
+[3] [Kasus Diabetes Anak Meningkat 70 Kali Lipat pada 2023](https://ameera.republika.co.id/berita/rrbbrf425/kasus-diabetes-anak-meningkat-70-kali-lipat-pada-2023)
+[4] [Data Mining Techniques: Types of Data, Methods, Applications](https://www.upgrad.com/blog/data-mining-techniques/) 
 
 ## Business Understanding
 
@@ -250,7 +250,7 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
 </p>
 
-Dari ketiga model yang telah dilatih, Random Forest merupakan model terbaik yang dihasilkan. Hal ini didasarkan pada confusion matrix yang didapatkan dari hasil testing yakni 95,93% pada confusion-matrix. Secara umum, 2 model lainnya juga memberikan hasil yang cukup bagus. Sehingga proses improvement dengan hyperparameter tuning tidak perlu untuk dilakukan, karena model yang dikembangkan sudah memenuhi ekspetasi dari solution statement yang sudah di tentukan di awal.
+Dari ketiga model yang telah dilatih, Random Forest merupakan model terbaik yang dihasilkan. Hal ini didasarkan pada confusion matrix yang didapatkan dari hasil testing yakni 0.96 pada confusion-matrix. Secara umum, 2 model lainnya juga memberikan hasil yang cukup bagus. Sehingga proses improvement dengan hyperparameter tuning tidak perlu untuk dilakukan, karena model yang dikembangkan sudah memenuhi ekspetasi dari solution statement yang sudah di tentukan di awal.
 
 ## Evaluation
 Berdasarkan pada kasus yang akan diselesaikan, yakni klasifikasi. maka ada empat metrik evaluasi yang populer digunakan yaitu **akurasi, precision, recall, dan F1 score**.
@@ -281,6 +281,5 @@ Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case m
 
 ## Daftar Pustaka
 
-- www.halodoc.com (2023). “Diabetes”. Diakses pada 14 Mei 2023, pukul 22.00 WIB, melalui website https://www.halodoc.com/kesehatan/diabetes
-- Peksi, Nandha, Bambang Yuwono, & Mangaras Yanu Florestiyanto. "Classification of Anemia with Digital Images of Nails and Palms using the Naive Bayes Method." *Telematika : Jurnal Informatika dan Teknologi Informasi* [Online], 18.1 (2021): 118-130. Web. 14 Mei 2023
-- Ramageri, B. M. (2010). Data Mining Techniques and Applications. Indian Journal of Computer Science and Engineering. Vol. 1 No. 4: 301-302
+[1] Peksi, Nandha, Bambang Yuwono, Mangaras Yanu Florestiyanto. "Classification of Anemia with Digital Images of Nails and Palms using the Naive Bayes Method." *Telematika : Jurnal Informatika dan Teknologi Informasi* vol. 18 No. 1: 118-130, 2021
+[2] Ramageri, B. M., "Data Mining Techniques and Applications", *Indian Journal of Computer Science and Engineering.*, Vol. 1 No. 4: 301-302, 2010
