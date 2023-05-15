@@ -305,4 +305,5 @@ Berdasarkan hasil yang telah dicapai model machine learning yang memiliki akuras
 ## Daftar Pustaka
 
 [1] Peksi, Nandha, Bambang Yuwono, Mangaras Yanu Florestiyanto. "Classification of Anemia with Digital Images of Nails and Palms using the Naive Bayes Method." *Telematika : Jurnal Informatika dan Teknologi Informasi* vol. 18 No. 1: 118-130, 2021
+    
 [2] Ramageri, B. M., "Data Mining Techniques and Applications", *Indian Journal of Computer Science and Engineering.*, Vol. 1 No. 4: 301-302, 2010
