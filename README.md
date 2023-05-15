@@ -250,6 +250,26 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
 </p>
 
+    Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Neighbor`, `Support Vector Machine`, `Logistic Regression` dan `Random Forest`. Model ini terbukti cukup membantu dalam memprediksi deteksi penyakit diabetes Berdasarkan *Body Mass Index* (BMI), karena mengklasifikasi dalam jumlah data yang besar untuk mendapatkan hasil yang optimal, di mana setiap model terdiri dari sejumlah prediktor atau variabel. Oleh karena itu, model statistik dapat dibuat dengan mengumpulkan data untuk variabel yang relevan. Dengan acuan performa yang dianalisis pada penelitan kali ini sebatas di metriks 2 akurasi tertinggi pada setiap percobaan :
+    
+1. percobaan pertama dengan menggunakan model **K-Nearest Neighbor (KNN)**
+    
+    <p align='center'>
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
+</p>
+    
+2. percobaan pertama dengan menggunakan model **Support Vector Machine (SVM)**
+    
+    <p align='center'>
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
+</p>
+    
+3. percobaan pertama dengan menggunakan model **Random Forest**
+    
+    <p align='center'>
+    <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
+</p> 
+    
 Dari ketiga model yang telah dilatih, Random Forest merupakan model terbaik yang dihasilkan. Hal ini didasarkan pada confusion matrix yang didapatkan dari hasil testing yakni 0.96 pada confusion-matrix. Secara umum, 2 model lainnya juga memberikan hasil yang cukup bagus. Sehingga proses improvement dengan hyperparameter tuning tidak perlu untuk dilakukan, karena model yang dikembangkan sudah memenuhi ekspetasi dari solution statement yang sudah di tentukan di awal.
 
 ## Evaluation
@@ -275,7 +295,7 @@ Keterangan:
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Screenshot%202023-05-14%20224158.png?raw=true" height=auto alt="recall">
 </p>
 
-Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case menggunakan ketiga algoritma tersebut adalah **Random Forest**. Random Forest menghasilkan nilai recall tertinggi dari ketiga algoritma yang telah diterapkan yakni 0.96.
+Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case menggunakan ketiga algoritma tersebut adalah **Random Forest**. Random Forest menghasilkan nilai recall tertinggi dari ketiga algoritma yang telah diterapkan yakni 96%.
 
 
 
