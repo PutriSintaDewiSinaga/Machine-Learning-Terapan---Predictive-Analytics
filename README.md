@@ -249,8 +249,8 @@ Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Nei
 <p align='center'>
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/conf-matrix.png?raw=true" height=auto alt="conf-matrix">
 </p>
-
-    Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Neighbor`, `Support Vector Machine`, `Logistic Regression` dan `Random Forest`. Model ini terbukti cukup membantu dalam memprediksi deteksi penyakit diabetes Berdasarkan *Body Mass Index* (BMI), karena mengklasifikasi dalam jumlah data yang besar untuk mendapatkan hasil yang optimal, di mana setiap model terdiri dari sejumlah prediktor atau variabel. Oleh karena itu, model statistik dapat dibuat dengan mengumpulkan data untuk variabel yang relevan. Dengan acuan performa yang dianalisis pada penelitan kali ini sebatas di metriks 2 akurasi tertinggi pada setiap percobaan :
+    
+Pada proyek ini, algoritma *machine learning* yang dipakai adalah `K-Nearest Neighbor`, `Support Vector Machine`, `Logistic Regression` dan `Random Forest`. Model ini terbukti cukup membantu dalam memprediksi deteksi penyakit diabetes Berdasarkan *Body Mass Index* (BMI), karena mengklasifikasi dalam jumlah data yang besar untuk mendapatkan hasil yang optimal, di mana setiap model terdiri dari sejumlah prediktor atau variabel. Oleh karena itu, model statistik dapat dibuat dengan mengumpulkan data untuk variabel yang relevan. Dengan acuan performa yang dianalisis pada penelitan kali ini sebatas di metriks 2 akurasi tertinggi pada setiap percobaan :
     
 1. percobaan dengan menggunakan model **K-Nearest Neighbor (KNN)**
     
@@ -297,7 +297,7 @@ Keterangan:
 
 Dalam proyek machine learning ini. model terbaik yang dikembangkan sesuai case menggunakan ketiga algoritma tersebut adalah **Random Forest**. Random Forest menghasilkan nilai recall tertinggi dari ketiga algoritma yang telah diterapkan yakni 96%.
 
-##Conclusion
+## Conclusion
 Conclusion
 
 Berdasarkan hasil yang telah dicapai model machine learning yang memiliki akurasi terbaik jatuh kepada model **Random Forest**. Model **Random Forest** cukup baik performanya apabila dibandingkan dengan model **Support Vector Machine (SVM)** dan model **K-Nearest Neighbor (KNN)** dikarenakan random forest menerapkan boosting algorithm atau improvisasi dari model dasar sehingga memiliki akurasi yang lebih tinggi. Model random forest pada dasarnya sangat membutuhkan feature-feature data yang bervariasi sehingga setiap akar dari algoritma random forest dapat menganalisa semua feature dan setiap feature mendapatkan hasil prediksi yang optimal. 
