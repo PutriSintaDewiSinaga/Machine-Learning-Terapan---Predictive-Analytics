@@ -59,10 +59,14 @@ Ada banyak sistem predictive yang berkembang, salah satunya dengan pendekatan kl
 Referensi:
 
 [1] [Diabetes](https://www.halodoc.com/kesehatan/diabetes) 
+    
 [2] [Diabetes :Penderita di Indonesia bisa mencapai 30 juta orang pada tahun 2030](https://p2ptm.kemkes.go.id/tag/diabetes-penderita-di-indonesia-bisa-mencapai-30-juta-orang-pada-tahun-2030#:~:text=Jumlah%20penderita%20terus%20meningkat%20dan,Organisasi%20Kesehatan%20Dunia%20(WHO).) 
+    
 [3] [Kasus Diabetes Anak Meningkat 70 Kali Lipat pada 2023](https://ameera.republika.co.id/berita/rrbbrf425/kasus-diabetes-anak-meningkat-70-kali-lipat-pada-2023)
+    
 [4] [Data Mining Techniques: Types of Data, Methods, Applications](https://www.upgrad.com/blog/data-mining-techniques/) 
 
+    
 ## Business Understanding
 
 ### Problem Statements
