@@ -90,7 +90,7 @@ Berdasarkan tujuan yang telah dipaparkan diatas, maka proyek penelitian ini memi
 - Melakukan evaluation model menggunakan metriks evaluasi. evaluasi ini dilakukan untuk mengetahui kinerja atau performance dari model yang telah dikembangkan.
 
 ## Data Understanding
-Dataset yang dipakai dalam proyek machine learning ini merupakan dataset anemia dengan 1421 records data. Dataset ini bersifat open-source yang dipubilkasikan oleh Biswa Ranjan Rao melalui platform [Kaggle: Diabetes prediction dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). Topik dari datasetnya adalah kesehatan yang berformat csv (comma-separated values) dengan ukuran 3.81 MB.
+Dataset yang dipakai dalam proyek machine learning ini merupakan dataset diabetes dengan 1421 records data. Dataset ini bersifat open-source yang dipubilkasikan oleh Biswa Ranjan Rao melalui platform [Kaggle: Diabetes prediction dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). Topik dari datasetnya adalah kesehatan yang berformat csv (comma-separated values) dengan ukuran 3.81 MB.
 
 <p align='center'>
     <img src="https://github.com/PutriSintaDewiSinaga/Putrisds/blob/main/Dataset.png?raw=true" alt="datasets">
